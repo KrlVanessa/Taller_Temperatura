@@ -2,11 +2,11 @@ package com.taller.Temperatura.persistence.repository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+
 import com.taller.Temperatura.persistence.crud.DeviceCrud;
 import com.taller.Temperatura.persistence.entity.Device;
 
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 @Repository
 public class DeviceRepository {

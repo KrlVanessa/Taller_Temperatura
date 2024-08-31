@@ -14,6 +14,6 @@ public interface DeviceCrud extends CrudRepository<Device, Long> {
     // Método para bscar dispositivos por ubicación
     List<Device> findByLocation(String location);
 
-    // Método adicional bscar eliminar dispositivos por nombre
+    // Método para eliminar dispositivos por nombre
     void deleteByName(String name);
 }
